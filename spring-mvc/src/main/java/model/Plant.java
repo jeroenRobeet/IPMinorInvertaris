@@ -1,7 +1,7 @@
 package model;
 
 public class Plant {
-    
+    private int id;
     private String naam;
     private String type;
     private double lengte;
@@ -46,5 +46,13 @@ public class Plant {
     public void setAantal(int aantal) {
         if (aantal <= 0) throw new DomainException("aantal kan niet negatief of 0 zijn");
         this.aantal = aantal;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

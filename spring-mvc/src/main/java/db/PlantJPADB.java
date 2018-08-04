@@ -7,7 +7,7 @@ import java.util.List;
 public class PlantJPADB implements PlantInterface {
 
     @Override
-    public Plant getPlant(String naam) {
+    public Plant getPlant(int id) {
         return null;
     }
 
@@ -22,12 +22,17 @@ public class PlantJPADB implements PlantInterface {
     }
 
     @Override
-    public void verwijderPlant(String naam) {
+    public void verwijderPlant(int id) {
 
     }
 
     @Override
     public void updatePlant(Plant plant) {
 
+    }
+
+    @Override
+    public int getTotaalAantal() {
+        return 0;
     }
 }

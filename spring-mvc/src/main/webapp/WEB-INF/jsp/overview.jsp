@@ -19,7 +19,7 @@
         </c:if>
         <section id="albums"  style="margin: 1em;">
 
-            <h2>Mijn albums</h2>
+            <h2>Mijn bomen/planten</h2>
 
             <div class="well">
                 <table class="table">
@@ -28,6 +28,7 @@
                             <th>Naam plant/boom</th>
                             <th>type plant/boom</th>
                             <th>lengte plant/boom</th>
+                            <th> aantal</th>
 
                             <th style="width: 36px;"></th>
                         </tr>
@@ -48,7 +49,7 @@
         </section>
         <div style="margin: 1.5em;">
             <p>
-                <a class="btn btn-primary" href="addAlbum.htm">Creëer album</a>
+                <a class="btn btn-primary" href="${pageContext.request.contextPath}/overview/addPlant.htm">voeg nieuwe plant/boom toe</a>
             </p>
 
             <p>

@@ -18,6 +18,6 @@
                 the redirection in</i> <tt>redirect.jsp</tt> <i>to point to the new
                 welcome page and also update the welcome-file setting in</i>
             <tt>web.xml</tt>.</p>
-    <p><p><a href="overview.htm" class="btn btn-success" >← Terug naar overview</a></p></p>
+    <p><p><a href="${pageContext.request.contextPath}/overview.htm" class="btn btn-success" >← Terug naar overview</a></p></p>
     </body>
 </html>

@@ -5,10 +5,11 @@ import model.Plant;
 import java.util.List;
 
 public interface PlantInterface {
-    public Plant getPlant(String naam);
+    public Plant getPlant(int id);
     public void addPlant(Plant plant);
     public List<Plant> getAllePlanten();
-    public void verwijderPlant(String naam);
+    public void verwijderPlant(int id);
     public void updatePlant(Plant plant);
+    public int getTotaalAantal();
 
 }
