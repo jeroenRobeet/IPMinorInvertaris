@@ -23,7 +23,7 @@ public class PlantService {
     public void updatePlant(Plant plant){
         planten.updatePlant(plant);
     }
-    public void verwijderPlant(int id){
+    public void verwijderPlant(long id){
         planten.verwijderPlant(id);
     }
     public Plant getPlant(long id){

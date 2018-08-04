@@ -41,4 +41,9 @@ public class PlantController {
     public ModelAndView update(@PathVariable long id){
         return new ModelAndView("addPlant","plant",service.getPlant(id));
     }
+    @RequestMapping(value = "/{id}/verwijder", method = RequestMethod.GET)
+    public String verwijder(@PathVariable long id){
+        service.verwijderPlant(id);
+        return "redirect:/overview.htm";
+    }
 }

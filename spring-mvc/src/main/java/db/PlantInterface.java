@@ -8,7 +8,7 @@ public interface PlantInterface {
     public Plant getPlant(long id);
     public void addPlant(Plant plant);
     public List<Plant> getAllePlanten();
-    public void verwijderPlant(int id);
+    public void verwijderPlant(long id);
     public void updatePlant(Plant plant);
     public int getTotaalAantal();
 

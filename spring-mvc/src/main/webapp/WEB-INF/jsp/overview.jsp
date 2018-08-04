@@ -40,6 +40,7 @@
                                 <td><c:out value="${plant.type}"/></td>
                                 <td><c:out value="${plant.lengte}"/></td>
                                 <td><c:out value="${plant.aantal}"/></td>
+                                <td><a href="${pageContext.request.contextPath}/overview/<c:out value="${plant.id}"/>/verwijder.htm"/> VERWIJDER</td>
                             </tr>
                         </c:forEach>
                     </tbody>

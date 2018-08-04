@@ -22,7 +22,7 @@ public class PlantJPADB implements PlantInterface {
     }
 
     @Override
-    public void verwijderPlant(int id) {
+    public void verwijderPlant(long id) {
 
     }
 

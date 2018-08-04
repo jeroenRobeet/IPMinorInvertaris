@@ -42,7 +42,7 @@ public class PlantInMemory implements PlantInterface {
     }
 
     @Override
-    public void verwijderPlant(int id) {
+    public void verwijderPlant(long id) {
         if (planten.containsKey(id)){
             planten.remove(id);
         } else{

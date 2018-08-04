@@ -7,20 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be151507-dc4d-43bc-8c38-5c1cd540833c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ipHerexamen_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ipHerexamen_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/ipHerexamen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/ipHerexamen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-mvc/src/main/java/controller/PlantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/controller/PlantController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-mvc/src/main/java/db/PlantInMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/db/PlantInMemory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-mvc/src/main/java/db/PlantInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/db/PlantInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-mvc/src/main/java/db/PlantJPADB.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/db/PlantJPADB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/src/main/java/model/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/model/Plant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-mvc/src/main/java/service/PlantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/service/PlantService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/jsp/addPlant.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/jsp/addPlant.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/jsp/overview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/jsp/overview.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/jsp/updateAlbum.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/controller/PlantController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/db/PlantInMemory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/db/PlantJPADB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/model/Plant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/service/PlantService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/controller/PlantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/target/classes/controller/PlantController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/db/PlantInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/target/classes/db/PlantInMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/db/PlantInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/target/classes/db/PlantInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/db/PlantJPADB.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/target/classes/db/PlantJPADB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/target/classes/service/PlantService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/target/classes/service/PlantService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/target/webshop.war" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/target/webshop.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/target/webshop/WEB-INF/classes/controller/PlantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/target/webshop/WEB-INF/classes/controller/PlantController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/target/webshop/WEB-INF/classes/db/PlantInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/target/webshop/WEB-INF/classes/db/PlantInMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/target/webshop/WEB-INF/classes/db/PlantInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/target/webshop/WEB-INF/classes/db/PlantInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/target/webshop/WEB-INF/classes/db/PlantJPADB.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/target/webshop/WEB-INF/classes/db/PlantJPADB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/target/webshop/WEB-INF/classes/service/PlantService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/target/webshop/WEB-INF/classes/service/PlantService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/target/webshop/WEB-INF/jsp/overview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/target/webshop/WEB-INF/jsp/overview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/target/webshop/WEB-INF/jsp/updateAlbum.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-mvc/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +44,8 @@
       <file leaf-file-name="PlantJPADB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/java/db/PlantJPADB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="408">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#164#165#0" expanded="true" />
@@ -50,11 +59,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-mvc/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PlantInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/java/db/PlantInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="160">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -62,10 +80,12 @@
       <file leaf-file-name="PlantService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/java/service/PlantService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="219">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
                 <element signature="e#692#693#0" expanded="true" />
                 <element signature="e#740#741#0" expanded="true" />
               </folding>
@@ -76,8 +96,8 @@
       <file leaf-file-name="PlantController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/java/controller/PlantController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+            <state relative-caret-position="820">
+              <caret line="43" column="73" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#861#862#0" expanded="true" />
@@ -87,7 +107,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addPlant.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addPlant.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/jsp/addPlant.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -99,8 +119,8 @@
       <file leaf-file-name="PlantInMemory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/java/db/PlantInMemory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+            <state relative-caret-position="740">
+              <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -136,8 +156,8 @@
       <file leaf-file-name="overview.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/jsp/overview.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="38" column="124" selection-start-line="38" selection-start-column="124" selection-end-line="38" selection-end-column="124" />
+            <state relative-caret-position="366">
+              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -163,13 +183,14 @@
         <option value="$PROJECT_DIR$/spring-mvc/src/main/java/web/config/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/spring-mvc/src/main/java/model/Plant.java" />
-        <option value="$PROJECT_DIR$/spring-mvc/src/main/java/controller/PlantController.java" />
+        <option value="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/jsp/addPlant.jsp" />
         <option value="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/jsp/overview.jsp" />
         <option value="$PROJECT_DIR$/spring-mvc/src/main/java/service/PlantService.java" />
         <option value="$PROJECT_DIR$/spring-mvc/src/main/java/db/PlantInterface.java" />
         <option value="$PROJECT_DIR$/spring-mvc/src/main/java/db/PlantInMemory.java" />
         <option value="$PROJECT_DIR$/spring-mvc/src/main/java/db/PlantJPADB.java" />
-        <option value="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/jsp/addPlant.jsp" />
+        <option value="$PROJECT_DIR$/spring-mvc/src/main/java/controller/PlantController.java" />
+        <option value="$PROJECT_DIR$/spring-mvc/pom.xml" />
       </list>
     </option>
   </component>
@@ -185,6 +206,13 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -496,12 +524,12 @@
       <workItem from="1533213213806" duration="24000" />
       <workItem from="1533287284514" duration="4834000" />
       <workItem from="1533301528834" duration="2716000" />
-      <workItem from="1533367776904" duration="12908000" />
+      <workItem from="1533367776904" duration="16032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20482000" />
+    <option name="totallyTimeSpent" value="23606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -587,6 +615,8 @@
           <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
             <element signature="e#692#693#0" expanded="true" />
             <element signature="e#740#741#0" expanded="true" />
           </folding>
@@ -692,6 +722,8 @@
           <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
             <element signature="e#692#693#0" expanded="true" />
             <element signature="e#740#741#0" expanded="true" />
           </folding>
@@ -806,34 +838,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/jsp/addPlant.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/jsp/overview.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="38" column="124" selection-start-line="38" selection-start-column="124" selection-end-line="38" selection-end-column="124" />
+        <state relative-caret-position="366">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/java/controller/PlantController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/java/service/PlantService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="219">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
             <element signature="e#692#693#0" expanded="true" />
             <element signature="e#740#741#0" expanded="true" />
           </folding>
@@ -842,22 +871,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/java/db/PlantInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="160">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/java/db/PlantInMemory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        <state relative-caret-position="740">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/java/controller/PlantController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="43" column="73" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/java/db/PlantJPADB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="408">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
@@ -870,10 +911,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/jsp/addPlant.jsp">
+    <entry file="file://$PROJECT_DIR$/spring-mvc/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        <state relative-caret-position="519">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
         </state>
       </provider>
     </entry>
