@@ -1,0 +1,7 @@
+db\DBException.class
+db\PlantInterface.class
+model\Plant.class
+model\DomainException.class
+db\PlantFactory.class
+db\PlantJPADB.class
+db\PlantInMemory.class
