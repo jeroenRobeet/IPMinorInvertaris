@@ -4,10 +4,12 @@ import model.Plant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import service.PlantService;
+
 
 @Controller
 @RequestMapping(value = "/overview")
@@ -18,7 +20,10 @@ public class PlantController {
     }
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView getPlanten(){
-        return new ModelAndView("overview","planten", service.getAllPlanten());
+
+        ModelAndView overviewpagina=  new ModelAndView("overview","planten", service.getAllPlanten());
+        overviewpagina.addObject("totaal",service.getTotaalAantal());
+        return overviewpagina;
     }
     @RequestMapping(value = "/addPlant", method = RequestMethod.GET)
     public ModelAndView getNieuwePlant(){
@@ -31,5 +36,9 @@ public class PlantController {
         }
         service.addPlant(plant);
         return "redirect:/overview.htm";
+    }
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    public ModelAndView update(@PathVariable long id){
+        return new ModelAndView("addPlant","plant",service.getPlant(id));
     }
 }

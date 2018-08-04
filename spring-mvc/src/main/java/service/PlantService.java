@@ -26,8 +26,8 @@ public class PlantService {
     public void verwijderPlant(int id){
         planten.verwijderPlant(id);
     }
-    public void getPlant(int id){
-        planten.getPlant(id);
+    public Plant getPlant(long id){
+       return planten.getPlant(id);
     }
     public int getTotaalAantal(){return planten.getTotaalAantal();}
 }

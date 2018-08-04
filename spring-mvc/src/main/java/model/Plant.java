@@ -1,14 +1,14 @@
 package model;
 
 public class Plant {
-    private int id;
+    private long id;
     private String naam;
     private String type;
     private double lengte;
     private int aantal;
 
     public Plant(){
-
+        this.setId(this.hashCode());
     }
 
     public String getNaam() {
@@ -48,11 +48,11 @@ public class Plant {
         this.aantal = aantal;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 }

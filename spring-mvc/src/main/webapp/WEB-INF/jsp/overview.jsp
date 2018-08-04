@@ -36,7 +36,7 @@
                     <tbody>
                         <c:forEach items="${planten}" var="plant">
                             <tr>
-                                <td><c:out value="${plant.naam}"/></td>
+                                <td><a href="${pageContext.request.contextPath}/overview/<c:out value="${plant.id}"/>.htm"/> <c:out value="${plant.naam}"/></td>
                                 <td><c:out value="${plant.type}"/></td>
                                 <td><c:out value="${plant.lengte}"/></td>
                                 <td><c:out value="${plant.aantal}"/></td>
@@ -44,6 +44,7 @@
                         </c:forEach>
                     </tbody>
                 </table>
+                <p>Totaal aantal planten/bomen : <c:out value="${totaal}"/></p>
             </div>
 
         </section>

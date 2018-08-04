@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 public class PlantInMemory implements PlantInterface {
-    private Map<Integer,Plant> planten;
+    private Map<Long,Plant> planten;
     public PlantInMemory(){
         planten = new HashMap<>();
         Plant banaan = new Plant();
@@ -21,7 +21,7 @@ public class PlantInMemory implements PlantInterface {
 
     }
     @Override
-    public Plant getPlant(int id) {
+    public Plant getPlant(long id) {
         return planten.get(id);
     }
 
@@ -29,7 +29,7 @@ public class PlantInMemory implements PlantInterface {
     public void addPlant(Plant plant) {
         if (plant == null) throw new DBException("plant is niet geldig");
 
-        planten.put(plant.getId(), plant);
+        planten.put( plant.getId(), plant);
     }
 
     @Override
@@ -53,7 +53,7 @@ public class PlantInMemory implements PlantInterface {
     @Override
     public void updatePlant(Plant plant) {
         if (plant == null) throw new DBException("geen geldige plant");
-        planten.put(plant.getId(),plant);
+        planten.put( plant.getId(),plant);
     }
 
     @Override
