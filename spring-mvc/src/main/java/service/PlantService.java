@@ -11,12 +11,8 @@ public class PlantService {
     public PlantService(String type){
         PlantFactory plantfactory =  new PlantFactory();
         planten = plantfactory.getPlant(type);
-
     }
-    public void addPlant(Plant plant){
-        planten.addPlant(plant);
-
-    }
+    public void addPlant(Plant plant){ planten.addPlant(plant);}
     public List<Plant> getAllPlanten(){
         return planten.getAllePlanten();
     }
