@@ -13,7 +13,7 @@
     </head>
     
     <body style="margin: 1em;">
-        <p><a href="./overview.htm" class="btn btn-success" >← Terug naar overview</a></p>
+        <p><a href="${pageContext.request.contextPath}/overview.htm" class="btn btn-success" >← Terug naar overview</a></p>
         <h1>Plant/boom toevoegen</h1>
         <form:form modelAttribute="plant" method="post" action="${pageContext.request.contextPath}/overview.htm" class="form-group">
             <form:hidden path="id"  value="${plant.id}"></form:hidden>

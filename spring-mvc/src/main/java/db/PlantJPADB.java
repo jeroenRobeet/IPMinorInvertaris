@@ -50,8 +50,6 @@ public class PlantJPADB implements PlantInterface {
 
     @Override
     public void updatePlant(Plant plant) {
-        long id = plant.hashCode();
-        plant.setId(id);
         entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
         entityManager.merge(plant);

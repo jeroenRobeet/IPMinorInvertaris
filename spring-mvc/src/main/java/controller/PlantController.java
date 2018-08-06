@@ -38,8 +38,16 @@ public class PlantController {
         return "redirect:/overview.htm";
     }
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public ModelAndView update(@PathVariable long id){
-        return new ModelAndView("addPlant","plant",service.getPlant(id));
+    public ModelAndView updatePagina(@PathVariable long id){
+        return new ModelAndView("updatePlant","plant",service.getPlant(id));
+    }
+    @RequestMapping(value = "/{id}",method = RequestMethod.POST)
+    public String update(Plant plant, BindingResult result){
+        if (result.hasErrors()){
+            return "updatePlant";
+        }
+        service.updatePlant(plant);
+        return "redirect:/overview.htm";
     }
     @RequestMapping(value = "/{id}/verwijder", method = RequestMethod.GET)
     public String verwijder(@PathVariable long id){
