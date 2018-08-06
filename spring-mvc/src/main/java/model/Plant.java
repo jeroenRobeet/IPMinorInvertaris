@@ -16,7 +16,13 @@ public class Plant {
     public Plant(){
         this.setId(this.hashCode());
     }
-
+    public Plant(String naam,String type,double lengte,int aantal){
+        this.setId(this.hashCode());
+        this.setAantal(aantal);
+        this.setType(type);
+        this.setNaam(naam);
+        this.setLengte(lengte);
+    }
     public String getNaam() {
         return naam;
     }
