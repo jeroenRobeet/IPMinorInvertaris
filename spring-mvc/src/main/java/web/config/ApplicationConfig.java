@@ -8,6 +8,6 @@ import service.PlantService;
 public class ApplicationConfig {
     @Bean
     public PlantService service(){
-        return new PlantService("jpa");
+        return new PlantService("memory");
     }
 }

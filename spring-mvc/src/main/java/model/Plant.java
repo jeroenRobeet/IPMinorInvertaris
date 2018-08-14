@@ -8,6 +8,7 @@ import javax.persistence.Id;
 public class Plant {
     @Id
     private long id;
+
     private String naam;
     private String type;
     private double lengte;
