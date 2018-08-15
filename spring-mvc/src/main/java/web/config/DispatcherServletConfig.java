@@ -37,7 +37,7 @@ public class DispatcherServletConfig implements WebMvcConfigurer {
     @Bean
     public LocaleResolver localeResolver() {
         CookieLocaleResolver localeResolver = new CookieLocaleResolver();
-        localeResolver.setDefaultLocale(Locale.UK);
+        localeResolver.setDefaultLocale(Locale.ENGLISH);
         return localeResolver;
     }
     @Bean

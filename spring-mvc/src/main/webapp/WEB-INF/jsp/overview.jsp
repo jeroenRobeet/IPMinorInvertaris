@@ -10,8 +10,37 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     </head>
     <body>
+
+    <li class="dropdown language-selector">
+        <spring:message code="multilang.taal"/>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
+            <button type="button" class="btn btn-secondary btn-sm"><spring:message code="multilang.kies"/> </button>
+        </a>
+        <ul class="dropdown-menu pull-center">
+            <li>
+                <a href="?lang=fr">
+
+                    <span><spring:message code="multilang.fr"/></span>
+                </a>
+            </li>
+            <li>
+                <a href="?lang=nl">
+
+                    <span><spring:message code="multilang.nl"/></span>
+                </a>
+            </li>
+            <li>
+                <a href="?lang=eng">
+
+                    <span><spring:message code="multilang.eng"/></span>
+                </a>
+            </li>
+
+        </ul>
+    </li>
       
         <c:if test="${fout != null}">
             <div style="background-color: red">
@@ -21,7 +50,7 @@
         <section id="albums"  style="margin: 1em;">
 
             <h2><spring:message code="overview.titel"/> </h2>
-            <h2>Language : <a href="?lang=fr">Frans</a>|<a href="?lang=nl">Nederlands</a></h2>
+
 
             <div class="well">
                 <table class="table">
@@ -42,7 +71,7 @@
                                 <td><c:out value="${plant.type}"/></td>
                                 <td><c:out value="${plant.lengte}"/></td>
                                 <td><c:out value="${plant.aantal}"/></td>
-                                <td><a href="${pageContext.request.contextPath}/overview/<c:out value="${plant.id}"/>/verwijder.htm"/> VERWIJDER</td>
+                                <td><a href="${pageContext.request.contextPath}/overview/<c:out value="${plant.id}"/>/verwijder.htm"/> <spring:message code="nav.verwijderen"/> </td>
                             </tr>
                         </c:forEach>
                     </tbody>
