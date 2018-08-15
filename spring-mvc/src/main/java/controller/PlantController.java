@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import service.PlantService;
 
+import javax.validation.Valid;
+
 
 @Controller
 @RequestMapping(value = "/overview")
@@ -30,7 +32,7 @@ public class PlantController {
         return new ModelAndView("addPlant","plant",new Plant());
     }
     @RequestMapping(method = RequestMethod.POST)
-    public String save(Plant plant, BindingResult result){
+    public String save(@Valid Plant plant, BindingResult result){
         if (result.hasErrors()){
             return "addPlant";
         }
@@ -42,7 +44,7 @@ public class PlantController {
         return new ModelAndView("updatePlant","plant",service.getPlant(id));
     }
     @RequestMapping(value = "/{id}",method = RequestMethod.POST)
-    public String update(Plant plant, BindingResult result){
+    public String update(@Valid Plant plant, BindingResult result){
         if (result.hasErrors()){
             return "updatePlant";
         }

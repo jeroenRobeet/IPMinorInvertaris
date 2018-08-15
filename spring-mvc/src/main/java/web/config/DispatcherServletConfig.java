@@ -53,7 +53,7 @@ public class DispatcherServletConfig implements WebMvcConfigurer {
     @Bean
     public MessageSource messageSource() {
         ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
-        messageSource.setBasename("classpath:meldingen");
+        messageSource.setBasename("classpath:messages");
         return messageSource;
     }
 }
