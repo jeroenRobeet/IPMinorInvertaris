@@ -13,33 +13,7 @@
     </head>
     
     <body style="margin: 1em;">
-    <li class="dropdown language-selector">
-        <spring:message code="multilang.taal"/>
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
-            <button type="button" class="btn btn-secondary btn-sm"><spring:message code="multilang.kies"/> </button>
-        </a>
-        <ul class="dropdown-menu pull-center">
-            <li>
-                <a href="?lang=fr">
-
-                    <span><spring:message code="multilang.fr"/></span>
-                </a>
-            </li>
-            <li>
-                <a href="?lang=nl">
-
-                    <span><spring:message code="multilang.nl"/></span>
-                </a>
-            </li>
-            <li>
-                <a href="?lang=en">
-
-                    <span><spring:message code="multilang.en"/></span>
-                </a>
-            </li>
-
-        </ul>
-    </li>
+  <jsp:include page="dropDown.jsp"/>
         <p><a href="${pageContext.request.contextPath}/overview.htm" class="btn btn-success" ><spring:message code="addPlant.knop.terug"/> </a></p>
         <h1><spring:message code="addPlant.titel"/> </h1>
         <form:form modelAttribute="plant" method="post" action="${pageContext.request.contextPath}/overview.htm" class="form-group">
